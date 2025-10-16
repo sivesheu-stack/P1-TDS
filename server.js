@@ -455,8 +455,8 @@ app.post('/api-endpoint', async (req, res) => {
 // Root route - to confirm the API is live
 app.get('/', (req, res) => {
   res.send(`
-    <h2>✅ LLM App Generator API</h2>
-    <p>Your server is running successfully.</p>
+    <h2>Project 1 TDA</h2>
+    <p>Welcome!</p>
     <ul>
       <li><a href="/health">Check Health</a></li>
       <li>Use POST /api-endpoint to submit tasks.</li>
